@@ -1,4 +1,5 @@
-<form>
+<div class="p-4">
+<form action ="/store" method='post'>
   <div class="form-group">
     <label for="npm">NPM</label>
     <input type="text" name ="npm" class="form-control" id="npm">
@@ -13,3 +14,4 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+</div>
